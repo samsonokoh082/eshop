@@ -16,7 +16,7 @@ function App() {
 
         <div className="nav_item">
           <span className="nav_itemLineOne">Hello Guest</span>
-          <span className="nav_itemLineTwo">Sign In</span>
+          <span className="nav_itemLineTwo">Sign In my name</span>
 
 
         </div>
