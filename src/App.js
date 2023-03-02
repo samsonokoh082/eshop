@@ -23,7 +23,7 @@ function App() {
         <div className="nav_item">
 
         <span className="nav_itemLineOne">Your</span>
-          <span className="nav_itemLineTwo">Shopj grkg</span>
+          <span className="nav_itemLineTwo">Shop</span>
 
         </div>
         <div className="nav_item">
