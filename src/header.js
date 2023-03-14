@@ -10,7 +10,7 @@ const Header = () => {
   
       <div className="header_logo">
         <StorefrontIcon className='header__logoImage' fontSize='large'/>
-        <h2 className='header__logoTitle'> eShop</h2>
+        <h2 className='header__logoTitle'> SAMMIE</h2>
 
       </div>
 
@@ -34,8 +34,8 @@ const Header = () => {
           <span className="nav_itemLineTwo">Shop</span>
 
         </div>
-        <div className="nav_item">
-        <ShoppingBasketIcon fontSize='large' className='nav_itemBasket'/>
+        <div className="nav_itemBasket">
+        <ShoppingBasketIcon/>
          
           <span className="nav_itemLineTwo nav__basketCount">0</span>
 
