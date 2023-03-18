@@ -1,17 +1,28 @@
 import React from "react";
 import './product.css';
 
-function Product() {
+function Product({ id, title, image, price, rating }) {
     return (
         <div className="pro">
             <div className="product">
                 <div className="product_info">
-                    <p>15 Liters Gricd Frijbox</p>
-                    <p className="product_price">$30</p>
+                    <p>{title}</p>
+                    <div className="pp">
+                        <p className="product_price">
+                            <small>$</small>
+                            <strong>{price}</strong>
+                        </p>
 
-                    <p className="product_rating">⭐⭐⭐</p>
+                        <div className="product_rating">
+                            {Array(rating)
+                                .fill()
+                                .map((_, i) => (
+                                    <p>⭐</p>
+                                ))}
+                        </div>
+                    </div>
                 </div>
-                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/86/5315522/1.jpg?4763" alt="" className="product_image" />
+                <img src={image} />
 
                 <button>Add to Basket</button>
             </div>

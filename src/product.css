@@ -16,7 +16,8 @@
 
 
 .product_rating{
-    display: flex;
+    display: flex; 
+
 }
 
 .product > img{
@@ -34,11 +35,17 @@
 
     
 }
+.pp{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .product_price{
     margin-top: 5px;
 }
 .product_info{
-    height: 100px;
-    margin-bottom: 15px;
-    justify-items: center;
+    height: 120px;
+    margin-bottom: 5px;
+    display: inline-block;
+  
 }
